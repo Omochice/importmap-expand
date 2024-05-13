@@ -1,5 +1,7 @@
 # importmap expand
 
+[![jsr](https://jsr.io/badges/@omochice/importmap-expand)](https://jsr.io/@omochice/importmap-expand)
+
 ```
 Usage: importmap-expand <filenames...> --option <deno.jsonc>
 
