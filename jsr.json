@@ -1,0 +1,5 @@
+{
+  "name": "@omochice/importmap-expand",
+  "version": "unknown",
+  "exports": "./cli.ts"
+}
