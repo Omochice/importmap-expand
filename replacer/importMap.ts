@@ -1,4 +1,4 @@
-import { parse as parseJsonc } from "jsr:@std/jsonc@1.0.1/parse";
+import { parse as parseJsonc } from "jsr:@std/jsonc@1.0.2/parse";
 import { extname } from "jsr:@std/path@1.0.8/extname";
 import { resolve } from "jsr:@std/path@1.0.8/resolve";
 import { ensure, is } from "jsr:@core/unknownutil@4.3.0";
