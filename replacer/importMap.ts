@@ -1,6 +1,6 @@
 import { parse as parseJsonc } from "jsr:@std/jsonc@1.0.2/parse";
-import { extname } from "jsr:@std/path@1.0.8/extname";
-import { resolve } from "jsr:@std/path@1.0.8/resolve";
+import { extname } from "jsr:@std/path@1.0.9/extname";
+import { resolve } from "jsr:@std/path@1.0.9/resolve";
 import { ensure, is } from "jsr:@core/unknownutil@4.3.0";
 import { type Dependency } from "../type.ts";
 
