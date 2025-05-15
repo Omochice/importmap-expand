@@ -23,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup deno
-        uses: denoland/setup-deno@909cc5acb0fdd60627fb858598759246509fa755 # v2.0.2
+        uses: denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb # v2.0.3
         if: ${{ steps.release.outputs.release_created }}
       - name: Bump up jsr.json
         run: deno run --allow-write --allow-read internal/bumpup.ts jsr.json --next ${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}
