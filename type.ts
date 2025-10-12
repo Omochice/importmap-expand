@@ -1,4 +1,4 @@
-import type { StringLiteral } from "npm:ts-morph@24.0.0";
+import type { StringLiteral } from "npm:ts-morph@27.0.2";
 
 export type Dependency = {
   specifier: string;
